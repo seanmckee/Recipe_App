@@ -12,7 +12,7 @@ const [query, setQuery] = useState("")
 const [recipes, setRecipes] = useState([])
 
 // search for recipes
-
+ 
 const searchRecipes = async () => {
   setIsLoading(true)
   const url = apiUrl + query;
